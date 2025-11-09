@@ -1,0 +1,16 @@
+# Ignore large, useless, or non-backend content
+data/
+notebook/
+prototype/
+frontend/
+node_modules/
+__pycache__/
+*.mp3
+*.wav
+*.mp4
+*.ipynb
+*.log
+*.sqlite
+.env
+.git
+.gitignore
