@@ -1,0 +1,28 @@
+# FastAPI web framework
+fastapi>=0.115.0
+
+# ASGI server (with standard extras)
+uvicorn[standard]>=0.30.0
+
+# Pydantic (v2 is the current major version)
+pydantic>=2.9.0
+
+# Load .env files
+python-dotenv>=1.0.0
+
+# PyTorch CPU wheels (2.5.0) – pulled from the official index (stable & compatible)
+torch==2.5.0 --index-url https://download.pytorch.org/whl/cpu
+torchaudio==2.5.0 --index-url https://download.pytorch.org/whl/cpu
+torchvision==0.20.0 --index-url https://download.pytorch.org/whl/cpu  # Optional but recommended for audio/vision utils
+
+# Whisper (OpenAI) – compatible with PyTorch 2.5+
+openai-whisper>=20231117
+
+# PANNs inference utilities – works with PyTorch 2.5
+panns-inference>=0.1.0
+
+# Audio manipulation
+pydub>=0.25.1
+
+# HTTP client
+requests>=2.32.0
